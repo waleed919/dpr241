@@ -1,0 +1,239 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+      background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+h4{
+  border-bottom: 2px solid #000;
+  width: 50%;
+  margin: 0 auto;
+  color: #454545;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.header{
+  background-image: url('../images/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 14em;
+  width: 100%;
+  color: #fff;
+  background-color: #777;
+  background-blend-mode: overlay;
+  text-align: center;
+}
+
+.logo{
+  letter-spacing: 1px;
+  margin-top: 2%;
+  margin-bottom: 1em;
+  font-weight: 800;
+  text-shadow: 2px 2px 1px #000;
+  color: #fff;
+}
+
+.nav .button {
+ width: 48%;
+ margin: 2px 0;
+}
+
+.button {
+ background-color: rgba(255,255,255,.8);
+ border-color: #3dbfff;
+ color: #000;
+}
+
+.button.button-primary{
+  margin-top: 2em;
+  background-color: rgba(255,255,255,.8);
+  color: #000;
+}
+
+.button:hover {
+ background-color: #FF7F00;
+ color: #fff;
+}
+
+
+#about-me{
+  padding: .5em;
+  margin-top: 2em;
+}
+
+#about{
+  padding: 30px;
+  background-color: #ffdb6b;
+}
+
+#self{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:13em;
+  border-radius: 0.938em;
+  border: 5px solid #000;
+}
+
+#about p{
+  padding:.5em;
+}
+
+
+#tech-skills{
+	padding: .5em;
+	margin-top: 1em;
+}
+
+.skills{ 
+  padding: 30px;
+  background-color: #3dbfff;
+}
+
+.skill-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+    bottom: 45px;
+}
+
+#my-education{
+  padding: .5em;
+  margin-top: 1em;
+}
+
+.education{
+ padding: 30px;
+ background-color: #565252;
+ color: #fff;
+}
+
+.school{
+  margin: 0 auto;
+  margin-bottom: .5em;
+  background-color: #ff7d3d;
+  border-radius: 50%;
+  width: 13em;
+  height: 13em;
+  padding: 4em 1em 1em;
+  text-align: center;
+  color:#333;
+}
+
+.school2{
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  background-color: #ffdb6b;
+  border-radius: 50%;
+  width: 13em;
+  height: 13em;
+  padding: 4em 1em 1em;
+  text-align: center;
+  color:#333;
+}
+
+.title{
+  background-color: #ffdb6b;
+  border-radius: 50%;
+  color: #333;
+  height: 6em;
+  width: 6em;
+  margin: 0 auto;
+  padding-top: 2em;
+  text-align: center;
+  border: 2px solid #e8cf09;
+}
+
+.fa-chevron-circle-up{
+  float: right;
+  margin-top: .275em;
+}
+
+.footer{
+  background-color: #222;
+  color:#fff;
+  text-align: center;
+  height: 11em;
+  margin-top: .5em;
+  padding-top: 1.5em;
+}
+
+.social-icon{
+  display: inline-block;
+  margin: 1.5em;
+}
+
+@media screen and (min-width: 48em){
+
+.logo{
+  font-size: 1.5em;
+}
+
+.footer{
+  padding-top: 3em;
+}
+
+.social-icon{
+  margin: 2em 4em;
+}
+
+#end{
+  padding-top:2em;
+}
+
+}
+
+@media screen and (min-width: 64em){
+
+  .header{
+    height:20em;
+    padding-top: 1em;
+  }
+
+  .logo{
+    font-size: 2em;
+  }
+
+  .nav .button {
+    width: 24%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  
+  .header{
+    height: 27em;
+  }
+
+  .logo{
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 160em){
+  
+  .header{
+    height: 42em;
+  }
+
+  .container{
+    max-width: 1600px;
+  }
+
+}
