@@ -1,0 +1,116 @@
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+th {
+	font-size: 1.5em;
+}
+
+h1 {
+    text-shadow: 3px 3px black;
+}
+
+section#intro-header {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+}
+
+section#intro-header .wrap-headline {
+  position: relative;
+  padding: 24% 0;
+}
+
+section#intro-header h1,
+section#intro-header h2 {
+  color: #fff;
+}
+
+section#services{
+	background-color: #dff0d8;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.title{
+	border-bottom: 2px solid #fff;
+	width: 61%;
+	margin: 0 auto;
+}
+
+.service{
+	margin-bottom: 1.5em;
+}
+
+section#services .service-tag{
+  max-width: 10.7em;
+  display: inline-block;
+  text-align: left;
+  margin-left: 1.5em;
+  font-size: 1.7rem;
+}
+
+section#contact form{
+	padding: 1em;
+}
+
+.fa-arrow-alt-circle-up{
+	color:#a1a1a1;
+}
+
+footer{
+	background-color: #f5f5f5;
+	line-height: 2em;
+	padding: 2em 0;
+}
+
+.fnlColumn{
+	padding-bottom: 1.5em;
+}
+
+.icons{
+	text-align: center;
+}
+.social-icon{
+	list-style: none;
+	display: inline;
+	padding: 1em;
+}
+
+@media screen and (min-width: 48em){
+	
+ul{
+	padding-left: 1em;
+}
+
+section#intro-header h1{
+	font-size: 3em;
+}
+
+.col-sm-6{
+	padding-top: 1em;
+}
+
+section#services .title{
+	width: 35%;
+	margin-bottom: 2em;
+}
+
+}
+
+@media screen and (min-width: 64em){
+
+section#intro-header h1{
+	font-size: 4em;
+}
+
+}
+
+@media screen and (min-width: 90em){
+
+section#intro-header h1{
+	font-size: 5em;
+}
+
+}
+
