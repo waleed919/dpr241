@@ -1,0 +1,23 @@
+$myColor: white;
+$myPColor: red;
+$myFontSize: 20px;
+$myMargin: 20px auto;
+$myFontStyle: italic;
+@mixin border {
+   border: 1px solid black;
+}
+
+ul li a {
+    color: $myColor;
+}
+
+.contact {
+    font-size: $myFontSize;
+    @include border;
+}
+
+p {
+    color: lighten($myPColor, 20%);
+    font-style: $myFontStyle;
+    @include border;
+}
